@@ -1,0 +1,30 @@
+name: easy_social_share
+description: Flutter social media sharing plugin for WhatsApp, Instagram, Facebook, Twitter, TikTok, and system's built-in sharing dialog.
+version: 0.1.0
+homepage: https://github.com/tentram/easy_social_share
+repository: https://github.com/tentram/easy_social_share
+issue_tracker: https://github.com/tentram/easy_social_share/issues
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.32.4"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.usefulteam.easy_social_share
+        pluginClass: EasySocialSharePlugin
+      ios:
+        pluginClass: EasySocialSharePlugin

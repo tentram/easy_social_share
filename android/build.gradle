@@ -1,0 +1,44 @@
+group 'com.usefulteam.easy_social_share'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.1.2'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+
+    if (project.android.hasProperty("namespace")) {
+        namespace 'com.usefulteam.easy_social_share'
+    }
+
+    compileSdkVersion 34
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    defaultConfig {
+        minSdkVersion 23
+    }
+}
+
+dependencies {
+    implementation 'com.facebook.android:facebook-share:17.0.0'
+}
