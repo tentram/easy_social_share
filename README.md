@@ -49,7 +49,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  easy_social_share: ^0.1.0
+  easy_social_share: ^0.1.1
 ```
 
 Then run:
