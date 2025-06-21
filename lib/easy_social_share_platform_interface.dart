@@ -182,11 +182,29 @@ abstract class EasySocialSharePlatform extends PlatformInterface {
   }
 }
 
+/// Enum representing the type of file to be shared to TikTok.
+///
+/// This enum is used to specify whether the content being shared to TikTok
+/// is an image or a video file.
+///
+/// Example usage:
+/// ```dart
+/// await easySocialShare.iOS.shareToTiktokPost(
+///   '/path/to/video.mp4',
+///   'https://your-app.com/redirect',
+///   TiktokFileType.video,
+/// );
+/// ```
 enum TiktokFileType {
+  /// Represents an image file type for TikTok sharing.
   image("image"),
+
+  /// Represents a video file type for TikTok sharing.
   video("video");
 
+  /// The string value associated with the file type.
   final String value;
 
+  /// Creates a TiktokFileType with the given [value].
   const TiktokFileType(this.value);
 }
