@@ -4,7 +4,6 @@ version: 0.1.0
 homepage: https://github.com/tentram/easy_social_share
 repository: https://github.com/tentram/easy_social_share
 issue_tracker: https://github.com/tentram/easy_social_share/issues
-publish_to: none
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
