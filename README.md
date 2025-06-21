@@ -762,8 +762,8 @@ try {
 Not many people have time, so thanks for your support!
 
 - You can like this package in [pub.dev](https://pub.dev/packages/easy_social_share) or start this GitHub repository.
-- You might want to also help answering reported [issues](https://github.com/tentram/easy_social_share/issues)
-- Or you might want to submit some [pull requests](https://github.com/tentram/easy_social_share/pulls).
+- You might want to also help answering reported [issues](https://github.com/ultrafastwork/easy_social_share/issues)
+- Or you might want to submit some [pull requests](https://github.com/ultrafastwork/easy_social_share/pulls).
 
 ## License
 

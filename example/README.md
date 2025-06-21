@@ -12,7 +12,7 @@ This example app demonstrates how to use the [easy_social_share](../README.md) F
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/tentram/easy_social_share.git
+git clone https://github.com/ultrafastwork/easy_social_share.git
 cd easy_social_share/example
 ```
 
@@ -44,7 +44,7 @@ For demo purpose:
 
 ## Contributing
 
-This example is part of the easy_social_share plugin package. For contributions and issues, please visit the [main repository](https://github.com/tentram/easy_social_share).
+This example is part of the easy_social_share plugin package. For contributions and issues, please visit the [main repository](https://github.com/ultrafastwork/easy_social_share).
 
 ## License
 
