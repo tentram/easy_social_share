@@ -65,8 +65,7 @@ class MethodChannelEasySocialShare extends EasySocialSharePlatform {
     if (Platform.isAndroid) return "Not implemented for android";
     String? resp;
     try {
-      resp =
-          (await const MethodChannel(
+      resp = (await const MethodChannel(
             'easy_social_share_tiktok',
           ).invokeMethod<String>(tiktokPost, {
             "videoFile": filePath,
